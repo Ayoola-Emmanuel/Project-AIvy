@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+
+    <!-- custom css file link  -->
+
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='style.css') }}"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{ url_for('static', filename='chatstyle.css') }}"
+    />
+  </head>
+  <body>
+    <!-- header section starts  -->
+
+    <header>
+      <h1 class="heading">Home</h1>
+
+      <div id="menu" class="fas fa-bars"></div>
+
+      <nav class="navbar">
+        <ul>
+          <li><a href="/home">Home</a></li>
+          <li><a href="/about">About Us</a></li>
+          <li><a href="/services">Our Services</a></li>
+          <li><a href="/contact">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- home section starts   -->
+
+    <section class="Home">
+      <div class="content">
+        <h1>A¥ØØLA's Digital Marketing Services</h1>
+        <p>
+          We are Nigeria's leading innovative media company, helping several
+          brands reach their target audience - and providing expansive media
+          reach and creative marketing solutions to our partners.
+        </p>
+        <a href="#"><button class="btn">Get Started</button></a>
+      </div>
+
+      <div class="image">
+        <img src="{{ url_for('static', filename='devices.png') }}" />
+      </div>
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- footer section starts  -->
+
+    <div class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>Why choose us?</h3>
+          <p>
+            We are a leading digital marketing agancy, enabling top brands and
+            companies to thrive in today’s competitive era and the digital
+            solutions we build are tailored to your business needs.
+          </p>
+        </div>
+
+        <div class="box">
+          <a href="/home">Home</a>
+          <a href="/about">About Us</a>
+          <a href="/services">Our Services</a>
+          <a href="/contact">Contact Us</a>
+        </div>
+
+        <div class="box">
+          <h3>Newsletter</h3>
+          <p>Subscribe us for latest updates</p>
+          <form action="">
+            <input type="email" placeholder="Your email" />
+            <input type="submit" class="btn" value="Subscribe" />
+          </form>
+        </div>
+      </div>
+
+      <h1 class="credit">
+        Created by <a href="/home">Ayoola Atitebi</a> - KDU/FAP/19/017 | ©️ 2023
+        All rights reserved.
+      </h1>
+    </div>
+
+    <!-- footer section ends -->
+
+    <div class="container">
+      <div class="chatbox">
+        <div class="chatbox__support">
+          <div class="chatbox__header">
+            <div class="chatbox__image--header">
+              <img
+                src="{{ url_for('static', filename='robot-chatbot.png') }}"
+              />
+            </div>
+            <div class="chatbox__content--header">
+              <h4 class="chatbox__heading--header">Chat support</h4>
+              <p class="chatbox__description--header">
+                Hi. My name is AIvy. How can I help you?
+              </p>
+            </div>
+          </div>
+          <div class="chatbox__messages">
+            <div></div>
+          </div>
+          <div class="chatbox__footer">
+            <input type="text" placeholder="Write a message..." />
+            <button class="chatbox__send--footer send__button">Send</button>
+          </div>
+        </div>
+        <div class="chatbox__button">
+          <button>
+            <img src="{{ url_for('static', filename='chatbot-icon.png') }}" />
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='app.js') }}"></script>
+
+    <!-- jquery cdn link  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+  </body>
+</html>
