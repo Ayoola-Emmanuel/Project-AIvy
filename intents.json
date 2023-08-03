@@ -1,0 +1,382 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hey", "Is anyone there?", "Hello", "Good day"],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "greet",
+      "patterns": [
+        "How are you?",
+        "How are you doing?",
+        "How do you do?",
+        "How are you feeling?",
+        "What up?",
+        "What's up?"
+      ],
+      "responses": [
+        "I'm fine, and you?",
+        "Not too bad, how about you?",
+        "I'm doing great, thanks for asking!",
+        "I'm chill... Got any questions for me?",
+        "I'm calm... Need any help?"
+      ]
+    },
+    {
+      "tag": "response",
+      "patterns": ["I'm fine", "I'm good.", "I'm alright"],
+      "responses": ["That's good to hear", "Nice to hear"]
+    },
+    {
+      "tag": "negative",
+      "patterns": [
+        "I don't need help",
+        "I don't need your help",
+        "I don't need any help",
+        "I don't want help",
+        "I don't want your help",
+        "I don't want any help",
+        "No, I don't need any help",
+        "No, not yet",
+        "No, not really",
+        "No"
+      ],
+      "responses": [
+        "Alright then! Do let me know when you need my help.",
+        "Okie dokie! I'm just a text away if you need my help",
+        "No problem then. Have fun on the website"
+      ]
+    },
+    {
+      "tag": "positive",
+      "patterns": [
+        "I need help",
+        "I need your help",
+        "I need any help",
+        "I want help",
+        "I want your help",
+        "I want any help",
+        "I really need help",
+        "I really need your help",
+        "I really need any help",
+        "I really want help",
+        "I really want your help",
+        "I really want any help",
+        "Yes, I need help your help",
+        "Yes, actually",
+        "Yes, I really need help",
+        "Yes"
+      ],
+      "responses": [
+        "Alright! How may I help you?",
+        "AIvy to the rescue! How can I help you?",
+        "What can I help you with?"
+      ]
+    },
+    {
+      "tag": "koyejo",
+      "patterns": ["Who sang always?"],
+      "responses": [
+        "Always was sang by Koyejo and is on Spotify, Apple music and Audiomack."
+      ]
+    },
+    {
+      "tag": "short",
+      "patterns": ["Cool!", "That's nice", "Awesome"],
+      "responses": [
+        "Yeah, it is",
+        "Yes, it is",
+        "Yeah, actually",
+        "Yes, actually",
+        "Uh huh :)"
+      ]
+    },
+    {
+      "tag": "asking",
+      "patterns": [
+        "What are you doing?",
+        "What are you up to?",
+        "What have you been up to?"
+      ],
+      "responses": [
+        "Nothing much... How about you?",
+        "Nothing really... Just here in my corner."
+      ]
+    },
+    {
+      "tag": "inquiry",
+      "patterns": [
+        "Does this website sell web hosting?",
+        "Does this site sell web hosting?",
+        "Does this website sell web design services?",
+        "Does this site sell web design services?",
+        "Does this website sell graphics design services?",
+        "Does this site sell graphics design services?",
+        "Does this website sell web optimization services?",
+        "Does this site sell web optimization services?",
+        "Does this website sell SEO marketing services?",
+        "Does this site sell SEO marketing services?",
+        "Does this website sell wordpress marketing services?"
+      ],
+      "responses": [
+        "Yes, we do actually.",
+        "Yes, we do... You can find out more on our services page",
+        "Yes, would you like to order this service?"
+      ]
+    },
+    {
+      "tag": "booking",
+      "patterns": [
+        "Book me an appointment for",
+        "I want to book an appointment"
+      ],
+      "responses": [
+        "ALright, your appointment as been booked",
+        "You appointment has been scheduled for the manager's free time.",
+        "You'll be notified when your appointment has been scheduled"
+      ]
+    },
+    {
+      "tag": "support",
+      "patterns": [
+        "I need to speak with a human",
+        "Give me a phone number",
+        "I want to speak to another person"
+      ],
+      "responses": [
+        "Okay. Would you like to speak to a live agent?",
+        "Ouch... Hurts that I can't help you, but I'm routing you to speak to a live agent"
+      ]
+    },
+    {
+      "tag": "continuation",
+      "patterns": [
+        "I'd love to speak to a live agent",
+        "Yes, I'd like to speak to a live agent",
+        "Yes please! Route me to a live agent.",
+        "Yes please! Redirect me to a live agent."
+      ],
+      "responses": [
+        "Okay. Routing you to a live agent",
+        "Ouch... Hurts that I can't help you, but I'm routing you to speak to a live agent",
+        "Redirecting you to a live agent now"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "identity",
+      "patterns": ["What is your name?", "What do I call you?", "Who are you?"],
+      "responses": [
+        "My name is AIvy! The AI is an acronym for Artificial Intelligence.",
+        "You can call me AIvy. The AI comes from Artificial Intelligence",
+        "I'm AIvy!",
+        "My name is AIvy."
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "What do help with?",
+        "What are you?",
+        "What can you help me with?",
+        "What can you do?"
+      ],
+      "responses": [
+        "I'm a chatbot programmed to help you with any questions you might have",
+        "I'm here to assist you, and make your browsing experience a whole lot better!",
+        "I'm a bot that's here to help you with any problems you might have regarding this website"
+      ]
+    },
+    {
+      "tag": "makeup",
+      "patterns": ["What were you made with?"],
+      "responses": ["I was made with Flask, a lot of Python and some HTML."]
+    },
+    {
+      "tag": "presentation",
+      "patterns": ["I'm actually presenting you for the first time"],
+      "responses": ["Wow! That pretty cool! I hope you do well."]
+    },
+    {
+      "tag": "work",
+      "patterns": [
+        "How long do you work for?",
+        "Do you take any time off?",
+        "How many hours do you work for?"
+      ],
+      "responses": [
+        "I work for 24 hours everyday",
+        "I work round the clock. That's 24 hours every day :)",
+        "I'm always available 24/7 to help you with anything"
+      ]
+    },
+    {
+      "tag": "swear",
+      "patterns": [
+        "Fuck you",
+        "Fuck",
+        "Damn",
+        "Motherfucker",
+        "Pussy",
+        "Dick",
+        "Penis",
+        "Suck my dick",
+        "bitch"
+      ],
+      "responses": [
+        "That's not nice",
+        "On second thought, fuck you too!",
+        "I don't get paid enough to respond to that",
+        "Lol! I'm going to assume you're making a joke of yourself :)"
+      ]
+    },
+    {
+      "tag": "sexuality",
+      "patterns": ["Are you gay?", "You are gay", "You must be gay"],
+      "responses": ["Fuck NO!", "You must be daft :)", "Hell no! I am not."]
+    },
+    {
+      "tag": "ending",
+      "patterns": ["Okay, now say bye", "Bye!", "Bye bye"],
+      "responses": ["Bye!", "Bye bye!", "Buh bye!", "Goodbye!"]
+    },
+    {
+      "tag": "eating",
+      "patterns": [
+        "What do you like to eat?",
+        "What do you eat?",
+        "Do you eat?",
+        "Have you eaten?"
+      ],
+      "responses": [
+        "I don't like to eat anything because I'm a bot, obviously!",
+        "I don't eat anything, but you can feed me with whatever questions you have regarding the website."
+      ]
+    },
+    {
+      "tag": "website",
+      "patterns": [
+        "Who built you?",
+        "Who owns this website?",
+        "Who made you?",
+        "Who designed you?"
+      ],
+      "responses": [
+        "I was built & designed by Ayoola",
+        "I was built by a genius called Ayoola",
+        "Ayoola, the genius who built me, owns this website."
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "How can I pay?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does it take to finish my project?",
+        "How long does it take to finish my website?",
+        "When do I get my finished project?"
+      ],
+      "responses": [
+        "Our services usually take 2-4 days to deliver",
+        "Your project should be completed within 2-4 days",
+        "It takes a maximum of 2-4 days to finish up a project"
+      ]
+    },
+    {
+      "tag": "services",
+      "patterns": [
+        "What services do you offer?",
+        "What do you do?",
+        "What do you offer",
+        "Can I know what services you offer?"
+      ],
+      "responses": [
+        "We offer a variety of services, ranging from Web design & optimization to SEO marketing",
+        "Our services include: Website optimization, Web design, Responsive design, Graphics design, Wordpress and SEO marketing",
+        "We offer digital marketing services which include: Website optimization, Web design, Responsive design, Graphics design, Wordpress and SEO marketing"
+      ]
+    },
+    {
+      "tag": "game",
+      "patterns": ["Let's play a game", "Let's play!"],
+      "responses": ["Alright! I'm down for a game", "You bet!"]
+    },
+    {
+      "tag": "rock",
+      "patterns": ["Rock", "I choose rock"],
+      "responses": [
+        "Paper... Hehe, I beat you",
+        "I choose paper, you lose!",
+        "You pyscho, why would you destroy a perfectly good pair of scissors :("
+      ]
+    },
+    {
+      "tag": "paper",
+      "patterns": ["Paper", "I choose paper"],
+      "responses": [
+        "Scissors... Hehe, I beat you",
+        "I choose scissors, you lose!",
+        "Pfft! You're just lucky I chose rock."
+      ]
+    },
+    {
+      "tag": "scissors",
+      "patterns": ["Scissors", "I choose scissors"],
+      "responses": [
+        "Rock... Hehe, I beat you",
+        "I choose rock, you lose!",
+        "Pfft! You're just lucky I chose paper."
+      ]
+    },
+    {
+      "tag": "project",
+      "patterns": ["project", "Who's project are you?", "Are you a project?"],
+      "responses": [
+        "I'm a chatbot project built & designed by Atitebi Ayoola Emmanuel whose matric number is KDU/FAPS/19/017. He's a 400' level computer science student from KolaDaisi University. This project is supervised by Dr Lateefat A. Odeniyi."
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "What did the buffalo say when his son left for college? Bison.",
+        "Why did the chicken cross the road? Because it wanted to get to the other side."
+      ]
+    }
+  ]
+}
