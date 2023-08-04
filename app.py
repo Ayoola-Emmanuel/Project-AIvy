@@ -1,4 +1,5 @@
 from flask import Flask, render_template, request, jsonify
+import nltk
 nltk.download('punkt')
 
 from chat import get_response
